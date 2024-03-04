@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div class="c1">
+        <h1>Welcome Teachers , Please Login</h1>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" class="form-control" id="email" [(ngModel)]="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" [(ngModel)]="password" placeholder="Enter your password">
+        </div>
+        <button class="btn btn-primary" (click)="login()">Login</button>
+        <p *ngIf="loginFailed" class="text-danger">Login failed. Please check your credentials.</p>
+
+
+
+    </div>
+    <div class="c2">
+        <img src="assets/t2.avif" alt="Your Image" height="400px" width="300px">
+
+
+    </div>
+</body>
+</html>

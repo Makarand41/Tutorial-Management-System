@@ -1,0 +1,12 @@
+.navbar{
+    background-color: rgb(67, 233, 252);
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none; /* Remove underline from the links */
+  }
+  
+  .navbar a:hover {
+    color: #333; /* Change color on hover */
+  }

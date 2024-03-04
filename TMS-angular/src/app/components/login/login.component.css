@@ -1,0 +1,47 @@
+.c1 {
+    height: 400px;
+    width: 500px;
+    vertical-align: top
+}
+
+
+
+
+
+body{
+    background-color: azure;
+}
+
+
+.c2{
+    height: 400px;
+    width: 300px;
+    vertical-align: top
+}
+
+.c1 {
+   
+    display: inline-block; /* Change display to inline-block */
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.c2 {
+    margin-left: 50px;
+   
+    display: inline-block; /* Change display to inline-block */
+}
+
+h1{
+    color: red;
+}
+
+.btn-primary {
+    background-color: #1390d8; /* Initial color */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: violet; /* Color on hover */
+}

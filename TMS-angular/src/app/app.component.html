@@ -1,0 +1,48 @@
+<style>
+  .navbar {
+    background-color: rgb(175, 239, 246);
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+
+  .navbar a {
+    color: black;
+    text-decoration: none; /* Remove underline from the links */
+    margin-right: 20px; /* Add some space between links */
+  }
+
+  .navbar a:hover {
+    color: #333; /* Change color on hover */
+  }
+
+  .navbar-brand img {
+    height: 40px; /* Adjust the height of the logo */
+    margin-right: 3px; /* Add some space between logo and text */
+  }
+
+  .navbar-links {
+    margin-left: auto; /* Align links to the right */
+    display: flex; /* Ensure links are displayed in a row */
+  }
+</style>
+
+<div>
+  <div>
+    <nav class="navbar">
+      <a href="tutorials" class="navbar-brand">
+        <img src="assets/t3.jpg" alt="Logo"> 
+        My app
+      </a>
+      <div class="navbar-links">
+        <a routerLink="tutorials" class="nav-link">Tutorials</a>
+        <a routerLink="add" class="nav-link">Add</a>
+        <a routerLink="about-us" class="nav-link">About US</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<app-footer></app-footer>
